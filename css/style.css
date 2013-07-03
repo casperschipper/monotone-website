@@ -33,7 +33,7 @@ header p.topics span.cat_title{margin-right:5px;}*/
 /*  Globals  */
 /*--------------------------------*/
 /*position of the gallery*/
-#contain { margin: 180px auto; width: 1180px; min-width:1180px; position:relative;z-index:0;}
+#contain { margin: 180px auto; margin-left: 250px; width: 1180px; min-width:1180px; position:relative;z-index:0;}
 
 /*--------------------------------*/
 /*  Footer  */

@@ -91,7 +91,7 @@ $(document).ready(function () {
 	parallax.gallery.onload=function(){
 		$("#topArrow").attr("src","assets/Arrows/Up-MonoLab.png");
 		$("#leftArrow").attr("src","assets/Arrows/Left-About.png");
-		$("#bottomArrow").attr("src","assets/Arrows/Down-Montone.png");
+		$("#bottomArrow").attr("src","assets/Arrows/Down-Monotone.png");
 		$("#rightArrow").attr("src","assets/Arrows/Right-Blog.png");
 	
 		setRight("blog", "Blog");
@@ -147,7 +147,7 @@ $(document).ready(function () {
 		$("#bottomArrow").fadeTo(500,1);
 		$("#bottomText").fadeTo(500,1);
 	}).mouseleave(function(){
-		$("#bottomArrow").stop().fadeTo(500,0.2);
+		$("#bottomArrow").stop().fadeTo(500,0.8);
 		$("#bottomText").stop().fadeTo(500,0);
 	});
 
@@ -155,7 +155,7 @@ $(document).ready(function () {
 		$("#leftArrow").fadeTo(500,1);
 		$("#leftText").fadeTo(500,1);
 	}).mouseleave(function(){
-		$("#leftArrow").stop().fadeTo(500, 0.2);
+		$("#leftArrow").stop().fadeTo(500, 0.8);
 		$("#leftText").stop().fadeTo(500,0);
 	});
 
@@ -163,7 +163,7 @@ $(document).ready(function () {
 		$("#rightArrow").fadeTo(500,1);
 		$("#rightText").fadeTo(500,1);
 	}).mouseleave(function(){
-		$("#rightArrow").stop().fadeTo(500, 0.2);
+		$("#rightArrow").stop().fadeTo(500, 0.8);
 		$("#rightText").stop().fadeTo(500,0);
 	});
 
@@ -171,7 +171,7 @@ $(document).ready(function () {
 		$("#topArrow").fadeTo(500,1);
 		$("#topText").fadeTo(500,1);
 	}).mouseleave(function(){
-		$("#topArrow").stop().fadeTo(500, 0.2);
+		$("#topArrow").stop().fadeTo(500, 0.8);
 		$("#topText").stop().fadeTo(500,0);
 	});
 

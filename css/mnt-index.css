@@ -77,7 +77,24 @@ p{
 }
 
 .arrow{
-	opacity:0.2;
+	padding:10%;
+	opacity:1;
+}
+
+img.up  {
+	padding-left:5.5px;
+}
+
+img.bottom {
+	padding-left:5.5px;
+}
+
+img.left {
+	margin-left: auto;
+}
+
+img.right {
+	margin-right: auto;
 }
 
 .dirText{
@@ -88,8 +105,11 @@ p{
 }
 
 .control{
+	border-radius: 5px;
+	/*background-color: rgba(200,255,200,0.2);*/
+	width:120px;
+	height:120px;
 	position:fixed;
-	width:170px;
 	cursor:pointer;
 }
 
@@ -101,6 +121,22 @@ p{
 #leftControl{
 	left:0px;
 	top:40%;
+}
+
+#topControl {
+	left:45%;
+}
+
+#blog {
+	padding-right: 10%;
+	width:100%;
+	height:100%;
+	padding: 5%;
+}
+
+#bottomControl {
+	left:45%;
+	bottom:0px;
 }
 
 #TGGDGallery {

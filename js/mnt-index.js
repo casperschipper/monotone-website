@@ -98,32 +98,32 @@ $(document).ready(function () {
 		$("#bottomArrow").fadeTo(500,1);
 		$("#bottomText").fadeTo(500,1);
 	}).mouseleave(function(){
-		$("#bottomArrow").stop().fadeTo(500,0.2);
-		$("#bottomText").stop().fadeTo(500,0);
+		$("#bottomArrow").stop().fadeTo(500,0.8);
+		$("#bottomText").stop().fadeTo(500,0.8);
 	});
 
 	$("#leftControl").mouseenter(function(){
 		$("#leftArrow").fadeTo(500,1);
 		$("#leftText").fadeTo(500,1);
 	}).mouseleave(function(){
-		$("#leftArrow").stop().fadeTo(500, 0.2);
-		$("#leftText").stop().fadeTo(500,0);
+		$("#leftArrow").stop().fadeTo(500, 0.8);
+		$("#leftText").stop().fadeTo(500,0.8);
 	});
 
 	$("#rightControl").mouseenter(function(){
 		$("#rightArrow").fadeTo(500,1);
 		$("#rightText").fadeTo(500,1);
 	}).mouseleave(function(){
-		$("#rightArrow").stop().fadeTo(500, 0.2);
-		$("#rightText").stop().fadeTo(500,0);
+		$("#rightArrow").stop().fadeTo(500, 0.8);
+		$("#rightText").stop().fadeTo(500,0.8);
 	});
 
 	$("#topControl").mouseenter(function(){
 		$("#topArrow").fadeTo(500,1);
 		$("#topText").fadeTo(500,1);
 	}).mouseleave(function(){
-		$("#topArrow").stop().fadeTo(500, 0.2);
-		$("#topText").stop().fadeTo(500,0);
+		$("#topArrow").stop().fadeTo(500, 0.8);
+		$("#topText").stop().fadeTo(500,0.8);
 	});
 
 
