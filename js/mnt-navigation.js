@@ -39,7 +39,7 @@ $(document).ready(function () {
 	//Setting up page navigation
 	parallax.home.onload=function(){
 
-		$("#topArrow").attr("src","assets/Arrows/Up-MonoLab.png");
+		$("#topArrow").attr("src","assets/Arrows/Up-Mono-Lab.png");
 		$("#leftArrow").attr("src","assets/Arrows/Left-About.png");
 		$("#bottomArrow").attr("src","assets/Arrows/Down-Projects.png");
 		$("#rightArrow").attr("src","assets/Arrows/Right-Blog.png");
@@ -65,7 +65,7 @@ $(document).ready(function () {
 	};
 
 	parallax.blog.onload=function(){
-		$("#topArrow").attr("src","assets/Arrows/Up-MonoLab.png");
+		$("#topArrow").attr("src","assets/Arrows/Up-Mono-Lab.png");
 		$("#leftArrow").attr("src","assets/Arrows/Left-About.png");
 		$("#bottomArrow").attr("src","assets/Arrows/Down-Projects.png");
 		$("#rightArrow").attr("src","assets/Arrows/Right-Monotone.png");
@@ -77,7 +77,7 @@ $(document).ready(function () {
 	};
 
 	parallax.about.onload=function(){
-		$("#topArrow").attr("src","assets/Arrows/Up-MonoLab.png");
+		$("#topArrow").attr("src","assets/Arrows/Up-Mono-Lab.png");
 		$("#leftArrow").attr("src","assets/Arrows/Left-Monotone.png");
 		$("#bottomArrow").attr("src","assets/Arrows/Down-Projects.png");
 		$("#rightArrow").attr("src","assets/Arrows/Right-Blog.png");
@@ -89,7 +89,7 @@ $(document).ready(function () {
 	};
 
 	parallax.gallery.onload=function(){
-		$("#topArrow").attr("src","assets/Arrows/Up-MonoLab.png");
+		$("#topArrow").attr("src","assets/Arrows/Up-Mono-Lab.png");
 		$("#leftArrow").attr("src","assets/Arrows/Left-About.png");
 		$("#bottomArrow").attr("src","assets/Arrows/Down-Monotone.png");
 		$("#rightArrow").attr("src","assets/Arrows/Right-Blog.png");
@@ -99,6 +99,18 @@ $(document).ready(function () {
 		setLeft("about","About");
 		setBottom("home","Home");
 	};
+
+	parallax.gi1.onload=function() {
+		setTop("gallery","Gallery");
+
+		$("#topArrow").attr("src","assets/Arrows/Up-Empty.png");
+	}
+
+	parallax.gi2.onload=function() {
+		setTop("gallery","Gallery");
+
+		$("#topArrow").attr("src","assets/Arrows/Up-Empty.png");
+	}
 
 
 	//Sets the correct triggers for the arrows, plus arrow keys
