@@ -17,20 +17,6 @@
 	<script src="js/gi1-functions.js"></script>
 	<script src="js/gi2-functions.js"></script>
 
-	<script type="text/javascript">
-
-	var _gaq = _gaq || [];
-	_gaq.push(['_setAccount', 'UA-34546066-1']);
-	_gaq.push(['_trackPageview']);
-
-	(function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	})();
-
-	</script>
-
 </head>
 
 <body class="background">
@@ -71,7 +57,7 @@
 			<h1></h1> </div>
 			<div id="home" class="black center w550 pad">
 			<h1><br><br><br><br></h1>
-			<img src="assets/Monotone-transparant-HUGE.png"  width="550px" >
+			<img src="assets/Monotone-transparant-HUGE.png"  style="max-width:100%;" >
 			</div>
 
 	</div>
@@ -106,22 +92,25 @@
 
 
 		<!-- THIS IS THE LABGALLERY -->
-
 	<div id="is" class="leaguegothic white page">
-		<!-- <a class="noanchor" href="https://github.com/stolksdorf/Parallaxjs"><div id="logo" class="f2">MonoLab</div></a> -->
-
-
-		<div class="f3" style="positioning:fixed; padding-top:55px;padding-left:90px;line-height:70px;">Mono Lab</div>
+		<div class="f3" style="color:rgb(240,240,240);padding-top:100px;padding-left:110px;line-height:70px;">Mono Lab
 		<h5 style="font-size:40px;line-height:47px;padding-left:90px;">This is the space for our experiments.</h5>
+		</div>
 
+
+		<!-- <a class="noanchor" href="https://github.com/stolksdorf/Parallaxjs"><div id="logo" class="f2">MonoLab</div></a> -->
 		<div id="contain" style="top:-100px;">
 
 			<section id="workThumbs" class="cols" style="overflow: auto;">
 
 				<a id="labGalleryItem1" class="item">
 					<span class="thumb" style="background-image:url('assets/tree-thumb.png');">
+						<h1 class="csGalleryTitle" >web app<br>monotree</h1>
 						<img src="structure/blank.png" alt="MediaSilo" class="thumb">
-						<div class="over" style=" " data-bg="assets/tree-thumb.png"></div>
+						<div class="over" style=" " data-bg="assets/tree-thumb.png">
+							<h1 class="csGalleryTitle" style="color:rgb(80,80,80);">web app<br>monotree</h1>
+						</div>
+
 					</span>
 				</a>
 
@@ -130,16 +119,20 @@
 
 				<a id="labGalleryItem2" class="item">
 					<span class="thumb" style="background-image:url('assets/ClothThumb.png');">
+						<h1 class="csGalleryTitle">glass scenography</h1>
 						<img src="structure/blank.png" alt="MediaSilo" class="thumb">
-						<div class="over" style=" " data-bg="assets/ClothThumb.png"></div>
+						<div class="over" style=" " data-bg="assets/ClothThumb.png">
+							<h1 class="csGalleryTitle" style="color:rgb(255,255,255);">glass scenography</h1>
+						</div>
 					</span>
 				</a>
 
 			</section>
 
 		</div>
-
 	</div>
+
+
 
 
 

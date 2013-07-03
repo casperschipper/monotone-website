@@ -51,31 +51,53 @@ $(document).ready(function () {
 	};
 
 	parallax.is.onload=function(){
-		$("#bottomArrow").attr("src","assets/Arrows/Down-Monotone.png");
-		setBottom("home","monotone");
+		// This is monolab
+
+		$("#topArrow").attr("src","assets/Arrows/Up-Monotone.png");
+		$("#leftArrow").attr("src","assets/Arrows/Left-About.png");
+		$("#bottomArrow").attr("src","assets/Arrows/Down-Projects.png");
+		$("#rightArrow").attr("src","assets/Arrows/Right-Blog.png");
+	
+		setRight("blog", "Blog");
+		setTop("home", "Home");
+		setLeft("about","About");
+		setBottom("gallery","Projects");
 	};
 
 	parallax.blog.onload=function(){
-		$("#leftArrow").attr("src","assets/Arrows/Left-Monotone.png");
-		$("#rightArrow").attr("src","assets/Arrows/Right-About.png");
-
-
-		setLeft("home", "monotone");
-		setRight("about", "about");
+		$("#topArrow").attr("src","assets/Arrows/Up-MonoLab.png");
+		$("#leftArrow").attr("src","assets/Arrows/Left-About.png");
+		$("#bottomArrow").attr("src","assets/Arrows/Down-Projects.png");
+		$("#rightArrow").attr("src","assets/Arrows/Right-Monotone.png");
+	
+		setRight("home", "Home");
+		setTop("is", "Mono Lab");
+		setLeft("about","About");
+		setBottom("gallery","Projects");
 	};
 
 	parallax.about.onload=function(){
-		$("#leftArrow").attr("src","assets/Arrows/Left-Blog.png");
-		$("#rightArrow").attr("src","assets/Arrows/Right-Monotone.png")
-
-		setLeft("blog", "about");
-		setRight("home","monotone");
+		$("#topArrow").attr("src","assets/Arrows/Up-MonoLab.png");
+		$("#leftArrow").attr("src","assets/Arrows/Left-Monotone.png");
+		$("#bottomArrow").attr("src","assets/Arrows/Down-Projects.png");
+		$("#rightArrow").attr("src","assets/Arrows/Right-Blog.png");
+	
+		setRight("blog", "Blog");
+		setTop("is", "Mono Lab");
+		setLeft("home","Home");
+		setBottom("gallery","Projects");
 	};
 
 	parallax.gallery.onload=function(){
-		$("#topArrow").attr("src","assets/Arrows/Up-Monotone.png");
-
-		setTop("home", "monotone");
+		$("#topArrow").attr("src","assets/Arrows/Up-MonoLab.png");
+		$("#leftArrow").attr("src","assets/Arrows/Left-About.png");
+		$("#bottomArrow").attr("src","assets/Arrows/Down-Montone.png");
+		$("#rightArrow").attr("src","assets/Arrows/Right-Blog.png");
+	
+		setRight("blog", "Blog");
+		setTop("is", "Mono Lab");
+		setLeft("about","About");
+		setBottom("home","Home");
 	};
 
 
